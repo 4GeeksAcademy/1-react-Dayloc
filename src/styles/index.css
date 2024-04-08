@@ -10,3 +10,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container1{
+    background-color: rgb(228, 246, 246);
+    align-items: center;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color: beige;
+}
+.navbar-brand{
+    color: aliceblue;
+}
+.navbar-toggler{
+    color: antiquewhite;
+}
+.card{
+    background-color: azure;
+}
+#jumbotron{
+    background-color: darkgrey;
+}
+#Cadtitlejumbo{
+    color: blue;
+}
+.nav-link{
+    color: antiquewhite;
+}
+#casa{
+    color: antiquewhite;
+}
+#busqueda{
+    color: antiquewhite;
+}
+.card-footer{
+    color: aliceblue;
+}
