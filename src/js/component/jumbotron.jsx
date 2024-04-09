@@ -1,14 +1,13 @@
 import React from "react";
 const Jumbotron=() =>{
-    return (<div className="row"><div id="jumbotron" className="card mb-3 ">
-    <div className="col-sm-12 col-md-8 col-xl-12">
-    <div className="card-body">
-      <h5 id="Cadtitlejumbo" className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  </div>
+    return (<div className="jumbotron p-1 mt-4">
+    <h1 className="display-4">Hello, world!</h1>
+    <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr className="my-4"/>
+    
+    <p className="lead">
+      <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
   </div>
    )
    
